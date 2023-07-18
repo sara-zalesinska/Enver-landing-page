@@ -2,9 +2,16 @@
     width: 100%;
     max-width: 1240px;
     margin: 0 auto;
+    padding: 0 2rem;
 }
 
 body {
     background-color: var(--bg-color-main);
     color: var(--color-main);
+    
+}
+
+
+html {
+	font-size: 62.5%;
 }

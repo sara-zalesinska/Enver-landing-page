@@ -6,23 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&family=Montserrat:wght@700&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
       <section class="top container">
-        <div class="top__logo">
-        <img src="./images/Logo Icon .png" alt="company logo" class="top__logo-img">
+        <div class="top__left">
+        <img src="./images/Logo Icon .png" alt="company logo" class="top__logo">
         <p class="top__company-name">Enver</p>
         </div>
-        <button class="hamburger hamburger--spin" type="button">
+        <div class="top__right">
+           <button class="hamburger hamburger--spin" type="button">
 				<span class="hamburger-box">
 					<span class="hamburger-inner"></span>
 				</span>
 			</button>
       <button class="close-menu">X</button>
-      <nav class="nav">
+      
+        </div>
+       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__element">Home</li>
           <li class="nav__element">Services</li>
