@@ -4,7 +4,5 @@
 @use './core/layout.scss';
 @use './core/typography.scss';
 @use './core/variables.scss';
+@use './components/header.scss';
 
-body {
-    background-color: var(--bg-color-main);
-}
