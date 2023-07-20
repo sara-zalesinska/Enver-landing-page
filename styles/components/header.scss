@@ -148,6 +148,9 @@
 
 }
 
+.active {
+    display: none;
+}
 
 
 
@@ -251,3 +254,97 @@
         padding: 3.5rem;
     }
 }
+
+.bottom-text {
+    margin-top: 6.6rem;
+    &__heading {
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-weight: 800;
+        font-size: 4.5rem;
+        text-align-last: left;
+        line-height: 63px;
+      
+    }
+
+    &__paragraph {
+        margin: 3rem 0 5rem 0;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 1.6rem;
+        line-height: 24px;
+        color: var(--color-main-lighter);
+    }
+
+    &__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 166px;
+        height: 44px;
+        background-color: var(--color-secondary);
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 1.7rem;
+        color: var(--color-main);
+        border: none;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    &__btn-arrow {
+        margin-left: .8rem;
+    }
+}
+.test {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-images {
+    position: relative;
+    display: grid;
+   
+  
+
+    &__square-img {
+       width: 80%;
+    }
+    &__main-img {
+        position: absolute;
+        top: 40%;
+        left: 0;
+        transform: translate(0, -50%);
+        width: 100%;
+    }
+}
+
+.bottom-images-icons-upper,
+.bottom-images-icons-lower {
+    display: flex;
+    justify-content: space-between;
+    min-height: 6.5rem;
+}
+
+.bottom-images-icons {
+    &__wave {
+        height: 25px;
+        align-self: flex-end;
+    }
+
+    &__circle {
+        align-self: flex-start;
+        animation: flo 5s infinite;
+    }
+
+    &__triangle {
+        height: 73px;
+        animation: bevel 10s infinite;
+    }
+
+    &__plus {
+        height: 33px;
+        align-self: center;
+        animation: rotate 30s infinite;
+    }
+    
+}
+

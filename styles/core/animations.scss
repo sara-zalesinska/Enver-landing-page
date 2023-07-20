@@ -1,0 +1,20 @@
+@keyframes flo {
+    50% {
+        transform: translateY(30px);
+    }
+}
+
+@keyframes bevel {
+    50% {
+        transform: translate(30px, 30px);
+        
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    } to {
+        transform: rotate(360deg);
+    }
+}
