@@ -328,11 +328,12 @@
     &__wave {
         height: 25px;
         align-self: flex-end;
+        animation: flo 20s infinite;
     }
 
     &__circle {
         align-self: flex-start;
-        animation: flo 5s infinite;
+        animation: flo 10s infinite;
     }
 
     &__triangle {
@@ -348,3 +349,35 @@
     
 }
 
+@media (min-width:768px) {
+    .bottom {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 7rem;
+    }
+
+    .bottom-text {
+        &__heading {
+            font-size: 7rem;
+            line-height: 74px;
+        }
+    }
+
+    .container {
+        padding: 0 7rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bottom-text {
+        &__heading {
+            font-size: 8rem;
+            line-height: 84px;
+        }
+
+        &__paragraph {
+            font-size: 1.8rem;
+            line-height: 39px;
+        }
+    }
+}
