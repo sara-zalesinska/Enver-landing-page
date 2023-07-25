@@ -1,0 +1,16 @@
+.video-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-top: 4rem;
+
+    &__video {
+        align-self: center;
+        width: 95%;
+        max-width: 1000px;
+        box-shadow: 0 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+  
+}
