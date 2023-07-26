@@ -1,9 +1,14 @@
+
+.header {
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #000000 60%,#130f40 100% );
+}
 .top {
     display: flex;
     max-height: 800px;
     align-items: center;
     justify-content: space-between;
-    margin-top: 4rem;
+    padding-top: 4rem;
     
 
     &__logo {
@@ -169,7 +174,7 @@
 
     .top {
         align-items: baseline;
-        margin-top: 0;
+        padding-top: 0;
 
         &__logo {
             display: flex;
