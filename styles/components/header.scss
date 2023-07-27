@@ -305,6 +305,8 @@
 .test {
     display: flex;
     justify-content: center;
+    
+    align-content: center;
 }
 
 .bottom-images {
@@ -314,14 +316,18 @@
   
 
     &__square-img {
-       width: 80%;
+    //    width: 80%;
+    width: 90%;
     }
     &__main-img {
         position: absolute;
-        top: 40%;
+        // top: 40%;
+        top: 45%;
         left: 0;
         transform: translate(0, -50%);
-        width: 100%;
+        // width: 100%;
+        width: 110%;
+
     }
 }
 
