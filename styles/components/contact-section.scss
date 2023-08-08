@@ -1,0 +1,68 @@
+.contact {
+    background-color: rgb(17, 17, 18);
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+
+    &__plus-icon {
+        align-self: flex-end;
+        margin-bottom: 4rem;
+        animation: rotate 30s infinite;
+    }
+
+    &__circle-icon {
+        width: 35px;
+        align-self: flex-start;
+        margin-bottom: 3rem;
+        animation: flo 15s infinite;
+    }
+}
+
+.contact-info {
+
+    &__btn {
+        margin: 50px 0 25px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+
+        &__heading {
+            width: 60%;
+        }
+
+        &__btn {
+         align-self: flex-start;
+         margin: 0;
+         cursor: pointer;
+         position: relative;
+            &:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background-color: darken(rgb(60, 60, 164), 15%);
+            transition: all .3s;
+            z-index: -1;
+            }
+            &:hover {
+            color: #fff;
+
+            &:before {
+            width: 100%;  
+             }
+         }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-info {
+        margin-bottom: 4rem;
+    }
+}

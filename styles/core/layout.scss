@@ -30,3 +30,20 @@ html {
 	font-size: 62.5%;
 }
 
+.button {
+    width: 166px;
+    height: 44px;
+    background-color: var(--color-secondary);
+    color: var(--color-main);
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.7rem;
+    border: none;
+    z-index: 100;
+}
+
+
+@media (min-width: 992px) {
+    .heading-h2 {
+        font-size: 4rem;
+    }
+}

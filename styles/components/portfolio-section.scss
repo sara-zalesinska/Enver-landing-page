@@ -1,6 +1,8 @@
 .portfolio {
     background-color: black;
-    height: 100vh;
+    padding-bottom: 7rem;
+    padding-top: 4rem;
+    // height: 100vh;
 
      &__heading {
         align-self: flex-start;
@@ -23,9 +25,9 @@
         margin-top: 5rem;
      }
 
-     &__image {
-        // width: 80%;
-     }
+    //  &__image {
+    //     // width: 80%;
+    //  }
     
      &__slider-btns {
         display: flex;
@@ -50,9 +52,10 @@
      }
 
      &__wave-icon {
-        height: 25px;
-        align-self: flex-end;
-        animation: flo 20s infinite;
+        // height: 25px;
+        // align-self: flex-end;
+        // animation: flo 20s infinite;
+        display: none;
      }
 
      &__pagination {
@@ -81,6 +84,8 @@
             padding-top: 10.8rem;
         }
 
+       
+
         // &__slider-btns {
         //     // display: none;
         //     display: flex;
@@ -101,9 +106,7 @@
     }
 
     // .swiper {
-    //     position: relative;
-    //     display: flex;
-    //     flex-direction: column-reverse;
+    //    cursor: grab;
     // }
 
     .swiper-pagination-bullet {
@@ -147,3 +150,11 @@
         }
     }
 }
+
+// @media (min-width: 1200px) {
+//     .portfolio {
+//         &__heading {
+//             font-size: 4rem;
+//         }
+//     }
+// }
