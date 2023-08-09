@@ -6,7 +6,6 @@
 }
 
 .header-section {
-
     &__shadow {
         display: none;
     }
@@ -40,6 +39,8 @@
         margin-left: .5rem;
     }
 }
+
+
 
 .hamburger {
 	padding: 1.5rem 0;
@@ -138,7 +139,8 @@
    }
 
    &__contact-btn {
-    display: none;
+    // display: none;
+    z-index: 100;
 
     &--mobile {
         margin-top: 4rem;
@@ -153,7 +155,7 @@
         font-size: 1.6rem;
         font-weight: 700;
         transition: all .3s;
-        
+       
         
 
         &:hover {
