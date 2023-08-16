@@ -7,7 +7,7 @@
 
 body {
     color: var(--color-main);
-   
+   background-color: black;
 
 }
 
@@ -41,9 +41,13 @@ html {
     z-index: 100;
 }
 
-
-@media (min-width: 992px) {
+@media (min-width: 768px){
     .heading-h2 {
         font-size: 4rem;
+    }
+}
+@media (min-width: 992px) {
+    .heading-h2 {
+        font-size: 4.3rem;
     }
 }

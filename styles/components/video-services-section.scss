@@ -4,9 +4,6 @@
     justify-content: center;
     align-content: center;
     padding: 4rem;
-    // background-color: #130f40;
-    // background-image: linear-gradient(215deg, #000000 71%,#130f40 120%);
-    background-color: black;
    
     &__text {
         margin: 10rem 0 3rem 0;
@@ -22,7 +19,6 @@
     }
 
     &__video {
-        
         align-self: center;
         width: 95%;
         max-width: 1000px;
@@ -42,7 +38,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         top: 50%;
-        width: 60px;
+        width: 40px;
         cursor: pointer;
     }
 
@@ -110,90 +106,5 @@
 
 .services-shadow {
    display: none;
-}
-
-
-@media (min-width: 768px) {
-    
-    .video-section {
-
-        &__text {
-            display: flex;
-            justify-content: space-around;
-        }
-
-        &__heading {
-            max-width: 50%;
-        }
-
-        &__paragraph {
-            max-width: 40%;
-        }
-        &__video-play-btn {
-            width: 90px;
-            transition: width .6s;
-
-            &:hover {
-                width: 100px;
-            }
-
-        }
-
-        &__video-shadow {
-            transition: background-color .3s;
-            cursor: pointer;
-            &:hover {
-                background-color: transparent;
-            }
-
-        }
-        
-    }
-
-    .services-top {
-      &__heading {
-        text-align: center;
-        font-size: 6rem;
-        width: 80%;
-        align-self: center;
-      }
-    }
-    .services-bottom {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        column-gap: 90px;
-
-        &__paragraph {
-            width: 80%;
-        
-        }
-    }
-
-    .service {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        z-index: 10;
-        transition: all .3s;
-        
-
-        &:hover {
-            scale: 1.1;
-        }
-    }
-
-    .services-shadow {
-        display: block;
-        position: absolute;
-        left: 0;
-        top: -453px;
-    }
-}
-
-
-@media (min-width: 1200px) {
-    .container{
-       max-width: unset;
-    }
 }
 

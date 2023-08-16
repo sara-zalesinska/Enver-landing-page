@@ -37,39 +37,3 @@
         color: var(--color-main-lighter);
     }
 }
-@media (min-width: 768px) {
-    .footer-info {
-        &__link {
-            transition: color .3s;
-            &:hover {
-                color: var(--color-secondary);
-            }
-        }
-    }
-}
-@media (min-width: 992px) {
-    .footer {
-        // flex-direction: row;
-        padding-top: 0;
-        height: 150px;
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-    }
-
-    .footer-info {
-        
-        &__list {
-           display: grid;
-           grid-template-columns: 1fr 1fr 2fr;
-          
-        }
-
-        &__list-item {
-            padding: 0;
-        }
-
-        &__copyright {
-            padding: 0;
-        }
-    }
-}

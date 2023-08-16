@@ -1,7 +1,6 @@
 import '../styles/main.scss';
 import Swiper from 'swiper';
 import 'swiper/css';
-
 import { Navigation, Pagination } from 'swiper/modules';
 
 
