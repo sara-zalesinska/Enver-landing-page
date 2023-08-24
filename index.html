@@ -5,16 +5,18 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <script src="https://kit.fontawesome.com/e7c64b8543.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700;800&family=Montserrat:wght@700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
-      <section class="header-section" id="grad">
+      <section class="header-section" >
         <img src="./images/header-shadow.png" alt="" class="header-section__shadow">
 
       <div class="top container">
+        <button class="close-menu">X</button>
 <div class="top__left">
         <img src="./images/Logo Icon .png" alt="company logo" class="top__logo">
         <p class="top__company-name">Enver</p>
@@ -25,11 +27,8 @@
 					  <span class="hamburger__inner"></span>
 				  </span>
 			  </button>
-      <!-- <button class="close-menu">X</button> -->
-      
         </div>
        <nav class="nav ">
-        
         <ul class="nav__list">
         <li class="nav__element">
         <a href="" class="nav__link">Home</a></li>
@@ -58,7 +57,7 @@
               <img src="./images/wave.png" alt="" class="bottom-images-icons__wave">
               <img src="./images/circle.png" alt="" class="bottom-images-icons__circle">
           </div>
-            <div class="test">
+            <div class="bottom-images__man-pic">
                <img src="./images/header-img-square.png" alt="" class="bottom-images__square-img">
             <img src="./images/header-img.png" alt="" class="bottom-images__main-img">
             </div>
@@ -78,9 +77,31 @@
         </div>
         <div class="bg"></div>
         <div class="video-section__video-wrapper">
-            <video src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" class="video-section__video"></video>
+            <video src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" class="video-section__video" ></video>
             <div class="video-section__video-shadow"></div>
        <img src="./images/play-btn.png" alt="" class="video-section__video-play-btn">
+       <div class="controls">
+        <div class="controls__progress">
+          <div class="controls__progress--filled"></div>
+        </div>
+        <div class="controls__buttons">
+          <div class="controls__left">
+           <button class="controls__toggle-play-btn ">►</button>
+           <p class="controls__current-video-time">00:00</p> 
+          </div>
+          <div class="controls__right">
+            <i class="fa-solid fa-volume-high" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-volume-xmark" style="color: #ffffff;"></i>
+            <input type="range" name="volume" class="controls__slider" min="0" max="1" step="0.05" value="1">
+            <input type="range" name="playbackRate" class="controls__slider" min="0.5" max="2" step="0.1" value="1">
+            <button data-skip="-10" class="controls__skip-backwards-btn controls__skip-btn">«10s</button>
+            <button data-skip="25" class="controls__skip-forward-btn controls__skip-btn">25s»</button>
+          </div>
+        </div>
+       
+       
+        
+       </div>
         </div>
 
       </section>
