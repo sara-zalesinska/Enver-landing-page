@@ -12,14 +12,14 @@ body {
 }
 
 .paragraph {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: var(--font-secondary);
     font-size: 1.6rem;
     line-height: 24px;
     color: var(--color-main-lighter);
   }
   
   .heading-h2 {
-  font-family: 'Hanken Grotesk', sans-serif;
+  font-family: var(--font-primary);
   font-size: 3.5rem;
   line-height: 54px;
   color: var(--color-main);
@@ -35,7 +35,7 @@ html {
     height: 44px;
     background-color: var(--color-secondary);
     color: var(--color-main);
-    font-family: "Nunito Sans", sans-serif;
+    font-family: var(--font-secondary);
     font-size: 1.7rem;
     border: none;
     z-index: 100;

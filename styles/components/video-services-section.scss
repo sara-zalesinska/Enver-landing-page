@@ -56,6 +56,8 @@
 .controls {
     display: flex;
     width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
    
     
     &__toggle-play-btn {
@@ -142,11 +144,6 @@
     align-self: center;
  }
 
-
-
-
-
-
 .services {
     padding-bottom: 4rem;
     background-color: black;
@@ -179,7 +176,7 @@
     }
 
     &__heading {
-        font-family: 'Nunito Sans', sans-serif;
+        font-family: var(--font-secondary);
         font-weight: 600;
         font-size: 2.4rem;
         line-height: 33px;
