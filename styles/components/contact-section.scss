@@ -1,27 +1,25 @@
 .contact {
-    background-color: rgb(4 4 4);
-    padding-top: 7rem;
-    display: flex;
-    flex-direction: column;
+  background-color: rgb(4 4 4);
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
 
-    &__plus-icon {
-        align-self: flex-end;
-        margin-bottom: 4rem;
-        animation: rotate 30s infinite;
-    }
+  &__plus-icon {
+    align-self: flex-end;
+    margin-bottom: 4rem;
+    animation: rotate 30s infinite;
+  }
 
-    &__circle-icon {
-        width: 35px;
-        align-self: flex-start;
-        margin-bottom: 3rem;
-        animation: flo 15s infinite;
-    }
+  &__circle-icon {
+    width: 35px;
+    align-self: flex-start;
+    margin-bottom: 3rem;
+    animation: flo 15s infinite;
+  }
 }
 
 .contact-info {
-
-    &__btn {
-        margin: 50px 0 25px 0;
-    }
+  &__btn {
+    margin: 50px 0 25px 0;
+  }
 }
-

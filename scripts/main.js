@@ -8,12 +8,4 @@ document.addEventListener('DOMContentLoaded', () => {
   setupCarousel();
   setupVideoPlayer();
   setupNavigation();
-})
-
-
-  
-
-
-
-
-
+});
