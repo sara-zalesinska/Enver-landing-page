@@ -5,13 +5,16 @@
         display: none;
     }
 
-    .close-menu {
+    .close-menu-btn {
         display: none;
     }
 
     .top {
         align-items: baseline;
         padding-top: 0;
+        padding: 4rem 0 0 0;
+        position: relative;
+        background-color: unset;
 
         &__logo {
             display: flex;
@@ -34,6 +37,7 @@
         margin: unset;
         transform: none;
         justify-content: space-evenly;
+        height: unset;
 
 
         &__list {

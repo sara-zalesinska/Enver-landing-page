@@ -10,7 +10,10 @@ body {
    background-color: black;
 
 }
-
+img {
+    pointer-events: none;
+  }
+  
 .paragraph {
     font-family: var(--font-secondary);
     font-size: 1.6rem;
@@ -28,6 +31,7 @@ body {
   
 html {
 	font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 .button {
