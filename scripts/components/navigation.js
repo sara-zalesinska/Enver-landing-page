@@ -4,16 +4,18 @@ const setupNavigation = () => {
   const navigation = document.querySelector('.nav');
   const navLink = document.querySelectorAll('.nav__link');
 
-  function handleNav() {
-    navigation.classList.toggle('nav--active');
-    setOverflow();
-  }
-
-  function setOverflow() {
+    function setOverflow() {
     navigation.classList.contains('nav--active')
       ? (document.body.style.overflow = 'hidden')
       : (document.body.style.overflow = 'auto');
   }
+
+
+  function handleNav() {
+    navigation.classList.toggle('nav--active');
+    setOverflow();
+  }
+  
 
   hamburgerBtn.addEventListener('click', handleNav);
   closeNavBtn.addEventListener('click', handleNav);
